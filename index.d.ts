@@ -103,7 +103,7 @@ interface t {
 	/** checks to see if `value` is a table and all of its keys match against `keyCheck` and all of its values match against `valueCheck` */
 	map: <K, V>(keyCheck: (value: any) => value is K, valueCheck: (value: any) => value is V) => check<Map<K, V>>;
 	/** checks to see if `value` is an array and all of its keys are sequential integers and all of its values match `check` */
-	array: <T>(check: (value: any) => value is T) => (value: any) => Array<T>;
+	array: <T>(check: (value: any) => value is T) => check<Array<T>>;
 
 	/** checks to see if `value` matches any given check */
 	union: <T extends Array<any>>(
