@@ -1,0 +1,4 @@
+node_modules
+.luacheckrc
+tsconfig.json
+.travis.yml

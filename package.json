@@ -1,0 +1,16 @@
+{
+	"name": "rbx-t",
+	"version": "0.0.1",
+	"description": "A Runtime Typechecker for Roblox",
+	"main": "t.lua",
+	"scripts": {},
+	"keywords": [],
+	"author": "Osyris",
+	"license": "MIT",
+	"devDependencies": {
+		"rbx-types": "^1.0.86"
+	},
+	"peerDependencies": {
+		"rbx-types": "^1.0.47"
+	}
+}
