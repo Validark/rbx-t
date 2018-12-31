@@ -1,8 +1,9 @@
 {
 	"name": "rbx-t",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "A Runtime Typechecker for Roblox",
 	"main": "t.lua",
+	"types": "index.d.ts",
 	"scripts": {},
 	"keywords": [],
 	"author": "Osyris",
