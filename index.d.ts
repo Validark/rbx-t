@@ -13,8 +13,10 @@ interface t {
 	callback: (value: any) => value is Function;
 	/** checks to see if `value` is Function */
 	none: (value: any) => value is undefined;
-	/** checks to see if `value` is a number */
+	/** checks to see if `value` is a number, will _not_ match NaN */
 	number: (value: any) => value is number;
+	/** checks to see if `value` is NaN */
+	nan: (value: any) => value is number;
 	/** checks to see if `value` is a string */
 	string: (value: any) => value is string;
 	/** checks to see if `value` is an object */
@@ -74,8 +76,8 @@ interface t {
 	/** checks to see if `value` is a Vector3int16 */
 	Vector3int16: (value: any) => value is Vector3int16;
 
-	/** checks to see if `value == exactValue` */
-	exactly: <T>(exactValue: T) => (value: any) => value is T;
+	/** checks to see if `value == literalValue` */
+	literal: <T>(literalValue: T) => (value: any) => value is T;
 	/** checks to see if `value` is an integer */
 	integer: (value: any) => value is number;
 	/** checks to see if `value` is a number and is more than or equal to `min` */

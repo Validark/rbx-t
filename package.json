@@ -1,6 +1,6 @@
 {
 	"name": "rbx-t",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"description": "A Runtime Typechecker for Roblox",
 	"main": "t.lua",
 	"types": "index.d.ts",
