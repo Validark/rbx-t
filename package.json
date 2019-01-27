@@ -9,7 +9,7 @@
 	"author": "Osyris",
 	"license": "MIT",
 	"devDependencies": {
-		"rbx-types": "^1.0.86"
+		"rbx-types": "^1.0.101"
 	},
 	"peerDependencies": {
 		"rbx-types": "^1.0.47"

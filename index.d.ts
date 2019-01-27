@@ -213,8 +213,6 @@ interface t {
 	instanceIsA(className: "BodyVelocity"): check<BodyVelocity>;
 	instance(className: "RocketPropulsion"): check<RocketPropulsion>;
 	instanceIsA(className: "RocketPropulsion"): check<RocketPropulsion>;
-	instance(className: "Button"): check<Button>;
-	instanceIsA(className: "Button"): check<Button>;
 	instance(className: "CacheableContentProvider"): check<CacheableContentProvider>;
 	instanceIsA(className: "CacheableContentProvider"): check<CacheableContentProvider>;
 	instance(className: "MeshContentProvider"): check<MeshContentProvider>;
@@ -505,8 +503,6 @@ interface t {
 	instanceIsA(className: "InputObject"): check<InputObject>;
 	instance(className: "InsertService"): check<InsertService>;
 	instanceIsA(className: "InsertService"): check<InsertService>;
-	instance(className: "InstancePacketCache"): check<InstancePacketCache>;
-	instanceIsA(className: "InstancePacketCache"): check<InstancePacketCache>;
 	instance(className: "JointInstance"): check<JointInstance>;
 	instanceIsA(className: "JointInstance"): check<JointInstance>;
 	instance(className: "DynamicRotate"): check<DynamicRotate>;
@@ -861,8 +857,6 @@ interface t {
 	instanceIsA(className: "ThirdPartyUserService"): check<ThirdPartyUserService>;
 	instance(className: "TimerService"): check<TimerService>;
 	instanceIsA(className: "TimerService"): check<TimerService>;
-	instance(className: "Toolbar"): check<Toolbar>;
-	instanceIsA(className: "Toolbar"): check<Toolbar>;
 	instance(className: "TouchInputService"): check<TouchInputService>;
 	instanceIsA(className: "TouchInputService"): check<TouchInputService>;
 	instance(className: "TouchTransmitter"): check<TouchTransmitter>;
