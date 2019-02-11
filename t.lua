@@ -422,7 +422,7 @@ do
 end
 
 -- ensure value is an Instance and it's ClassName matches the given ClassName
-function t.instance(_, className)
+function t.instance(className)
 	assert(t.string(className))
 	return function(value)
 		local instanceSuccess, instanceErrMsg = t.Instance(value)
@@ -439,7 +439,7 @@ function t.instance(_, className)
 end
 
 -- ensure value is an Instance and it's ClassName matches the given ClassName by an IsA comparison
-function t.instanceIsA(_, className)
+function t.instanceIsA(className)
 	assert(t.string(className))
 	return function(value)
 		local instanceSuccess, instanceErrMsg = t.Instance(value)
