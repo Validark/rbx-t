@@ -11,7 +11,7 @@ interface t {
 	coroutine: (value: any) => value is thread;
 	/** checks to see if `value` is a Function */
 	callback: (value: any) => value is Function;
-	/** checks to see if `value` is Function */
+	/** checks to see if `value` is undefined */
 	none: (value: any) => value is undefined;
 	/** checks to see if `value` is a number, will _not_ match NaN */
 	number: (value: any) => value is number;
